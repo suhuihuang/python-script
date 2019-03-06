@@ -1,0 +1,8 @@
+conda create --no-default-packages --name cy python=3.6
+
+conda env export > environment.yml
+
+pip3 download -d ./tmp -r requirement.txt
+
+pip3 install --no-index --find-links ./tmp -r requirement.txt
+

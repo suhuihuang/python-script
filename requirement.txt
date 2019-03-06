@@ -1,0 +1,13 @@
+flask
+flask_cors
+requests
+Elasticsearch
+tensorflow==1.5.0
+Pandas
+jieba
+sqlalchemy
+pymysql
+synonyms
+keras
+cx_Oracle
+gunicorn
